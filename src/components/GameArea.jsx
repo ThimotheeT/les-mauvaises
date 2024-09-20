@@ -64,7 +64,7 @@ const GameArea = () => {
       <div className="flex justify-center space-x-[5vw]">
         {[0, 1].map((index) => (
           <div key={index} ref={el => cupsRef.current[index] = el} className="cup relative cursor-pointer flex flex-col items-center">
-            <img src="src/assets/goblet-removebg-preview.png" alt="Gobelet" className="w-[20vw] max-w-[200px] 3xl:max-w-[400px] h-auto" />
+            <img src="/goblet-removebg-preview.png" alt="Gobelet" className="w-[20vw] max-w-[200px] 3xl:max-w-[400px] h-auto" />
             <span className="hidden-text absolute -bottom-[3vh] left-1/2 -translate-x-1/2 opacity-0 bg-custom-dark text-white py-[1vh] px-[3vw] rounded-full font-standrock text-[2vw] whitespace-nowrap">
               {index === 0 ? "NON" : "OUI"}
             </span>

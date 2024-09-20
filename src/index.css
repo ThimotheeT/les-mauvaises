@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Made Soulmaze';
-  src: url('src/fonts/made_soulmaze/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('opentype');
+  src: url('/made_soulmaze/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Stand Rock';
-  src: url('src/fonts/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
+  src: url('/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
