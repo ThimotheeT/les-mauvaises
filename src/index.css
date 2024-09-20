@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Made Soulmaze';
+  src: url('src/fonts/made_soulmaze/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stand Rock';
+  src: url('src/fonts/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Pour l'anim de curseur */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.cursor {
+  animation: blink 0.7s infinite;
+}
